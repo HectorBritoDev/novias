@@ -1,0 +1,54 @@
+@import '~bulma';
+$widescreen: 1000px;
+$desktop: 800px;
+$fullhd: 1150px;
+@import 'variables';
+
+// Bulma
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+@import '~bulma';
+//@import "~bulma-calendar/dist/css/bulma-calendar.sass";
+//@import '~bulma-carousel/dist/css/bulma-carousel.sass';
+.boton-nav{
+  margin-right: 10px;
+}
+.green_web{
+
+  border-color: $green_web;;
+  border-width: 1px;
+  color: white;
+  background-color: $green_web;
+  &:hover{
+    color: white;
+  }
+}
+.navbar-item img {
+  max-height: 3rem;
+  margin-left: 20px;
+}
+.century{
+  font-family: Century;
+}
+.caviar{
+  font-family: Caviar;
+}
+@font-face {
+  font-family: 'Century';
+  /* Antes de descargar el archivo, le decimos al buscador
+  que intente buscar en local la fuente con nombre
+  Cabin, Cabin Regular o Cabin-Regular */
+  src: url('/fonts/CenturyGothic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Caviar';
+  /* Antes de descargar el archivo, le decimos al buscador
+  que intente buscar en local la fuente con nombre
+  Cabin, Cabin Regular o Cabin-Regular */
+  src: url('/fonts/CaviarDreams.ttf') format('truetype');
+}
+a.organiza {
+  border-color: $green_web;;
+  color: white;
+  background-color: $green_web;
+}
